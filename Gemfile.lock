@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    version_serializer (0.0.1)
+    version-serializer (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -68,4 +68,4 @@ DEPENDENCIES
   rb-fsevent
   simplecov
   terminal-notifier-guard
-  version_serializer!
+  version-serializer!

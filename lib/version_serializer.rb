@@ -31,6 +31,8 @@ module VersionSerializer
 
     include Comparable
     def <=> other
+      return nil if other.nil?
+
       [major, minor] <=> [other.major, other.minor]
     end
 
