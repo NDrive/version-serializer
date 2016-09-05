@@ -17,7 +17,11 @@ module VersionSerializer
     def self.dump (object)
       return nil if object.nil?
 
-      ("%d.%03d" % [object.major, object.minor]).to_f
+      if object.respond_to?(:major)
+        ("%d.%03d" % [object.major, object.minor]).to_f
+      else
+        object
+      end
     end
 
     def self.from_string data
