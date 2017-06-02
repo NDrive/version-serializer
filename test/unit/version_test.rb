@@ -2,7 +2,6 @@ require 'version_serializer'
 require 'test_helper'
 
 class VersionTest < MiniTest::Test
-  # test "Should serialize version" do
   def test_serialize_version
     assert_equal 3.002, VersionSerializer::Version.dump(VersionSerializer::Version.new(3, 2))
   end

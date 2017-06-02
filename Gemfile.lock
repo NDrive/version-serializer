@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    version-serializer (1.0.0)
+    version-serializer (1.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -39,6 +39,8 @@ GEM
     pry-doc (0.6.0)
       pry (~> 0.9)
       yard (~> 0.8)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
     rake (10.3.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.4)
@@ -64,6 +66,7 @@ DEPENDENCIES
   guard-yard
   pry
   pry-doc
+  pry-nav
   rake
   rb-fsevent
   simplecov
@@ -71,4 +74,4 @@ DEPENDENCIES
   version-serializer!
 
 BUNDLED WITH
-   1.12.3
+   1.14.3

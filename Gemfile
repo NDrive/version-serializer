@@ -5,6 +5,7 @@ gemspec
 
 group :testing do
   gem "pry"
+  gem "pry-nav"
   gem "pry-doc"
 
   gem "guard"
