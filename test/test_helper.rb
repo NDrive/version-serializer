@@ -10,6 +10,4 @@ end
 
 SimpleCov.start 'gem'
 
-require 'pry'
-
 require 'minitest/autorun'

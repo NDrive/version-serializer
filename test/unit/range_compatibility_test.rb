@@ -17,7 +17,6 @@ class CompatibilityTest < MiniTest::Test
   end
 
   def test_compatible
-    binding.pry
     [
       ["1.2", "1.5"],
       [nil, "1.5"],
